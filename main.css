@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    align-items: center;
+    width: 100%;
+}
+
+
+.painel {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px;
+    list-style: none;
+}
+
+.painel a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.carrossel-img {
+    display: flex;
+}
+
+.carrossel {
+    height: 400px;
+    width: 400px;
+    margin-left: 24px;
+}
+
+
+header {
+    background-color: #1b0046;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-hamburguer {
+    cursor: pointer;
+    width: 32px;
+    margin-right: 16px;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+#about {
+    width: 65%;
+    float: right;
+    margin-top: 16px;
+}
+
+#about > p{
+    width: 73%;
+    float: right;
+    text-align: justify;
+}
+
+#about > img {
+    height: 300px;
+    width: 25%;
+}
+.carrossel {
+    margin-top: 40px;
+    height: 200px;
+    width: 30%;
+}
+
+.destaque {
+    margin-left: 16px;
+}
+
+.destaque > h2 {
+    padding: 16px 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul > li > img{
+    width: 400px;
+}
+
+del {
+    color: gray;
+    font-weight: bold;
+}
+
+.lista-destaque > li {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+}
+
+.ofertas {
+    padding-left: 16px;
+}
+
+.contato {
+    padding-left: 16px;
+}
+
+form > input, textarea, button {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 4px;
+}
+
+.form {
+    max-width: 33%;
+}
+
+footer {
+    background-color: #1b0046;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 16px;
+    justify-content: space-between;
+    display: flex;
+    padding: 8px;
+}
+
+.painel > li{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+
+    body {
+        max-width: 767px;
+        width: 100%;
+    }
+
+    header {
+        justify-content: space-between;
+        width: 767px;
+    }
+
+    .menu-hamburguer {
+        margin-right: 170px;
+    }
+
+    .painel {
+        display: none;
+    }
+
+    .container-sobre {
+        justify-content: space-between;
+        text-align: justify;
+        margin-left: 72px;
+        width: 750px;
+    }
+
+    #about > h2 {
+        margin-bottom: 16px;
+    }
+
+    section {
+        width: 767px;
+        margin-bottom: 50px;
+    }
+
+    .lista-destaque {
+        display: block;
+        justify-content: center;
+        margin-left: 50px;
+        width: 56%;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    li > img {
+        height: 300px;
+        width: 300px;
+    }
+
+    li > button {
+        padding: 20px auto;
+        font-size: 24px;
+        width: 100%;
+    }
+
+    #form {
+        width: 600px;
+        padding: 40px;
+    }
+
+    footer {
+        width: 767px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+       
+    body {
+        max-width: 1023px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    li > p, button {
+        width: 350px;
+        margin-left: 220px;
+    }
+
+    #contato {
+        width: 800px;
+        margin-bottom: 16px;
+    }
+
+    #contato > h2 {
+        text-align: center;
+    
+    }
+
+    #form {
+        margin-left: 150px;
+        width: 500px;
+    }
+
+    #button-form {
+        justify-content: start;
+    }
+
+}

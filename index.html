@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Imobiliária Responsivo</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container" id="header">
+            <h1>Casa&Negócio Imobiliária</h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div>
+                <ul class="painel">
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Em Destaque</a>
+                    </li>
+                    <li><a href="#">Ofertas</a>
+                    </li>
+                    <li><a href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-sobre">
+        <section id="about">
+            <h2>Sobre a loja</h2>
+            <img src="./images/stand-vendas.jpg" alt="Stand de Vendas">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+        </section>
+
+    </div>
+
+    <section class="destaque">
+        <h2>Em Destaque</h2>
+        <ul class="lista-destaque">
+            <li>
+                <img src="./images/casa1.jpg" alt="Casa com piscina">
+                <h3>Casa 01</h3>
+                <p>Casa localizada a 15 minutos do centro, com piscina, dois andares, quatro quartos com duas suítes.
+                </p>
+                <span><strong>R$ 400.000,00</strong></span> <br>
+                <button>Tenho Interesse</button>
+            </li>
+            <li>
+                <img src="./images/casa1.jpg" alt="Casa com piscina">
+                <h3>Casa 02</h3>
+                <p>Casa localizada a 15 minutos do centro, com piscina, dois andares, quatro quartos com duas suítes.
+                </p>
+                <span><strong>R$ 400.000,00</strong></span><br>
+                <button>Tenho Interesse</button>
+            </li>
+            <li>
+                <img src="./images/casa1.jpg" alt="Casa com piscina">
+                <h3>Casa 03</h3>
+                <p>Casa localizada a 15 minutos do centro, com piscina, dois andares, quatro quartos com duas suítes.
+                </p>
+                <span><strong>R$ 400.000,00</strong></span><br>
+                <button>Tenho Interesse</button>
+            </li>
+        </ul>
+    </section>
+    <section class="ofertas">
+        <h2>Casas em ofertas</h2>
+        <ul class="lista-destaque">
+            <li>
+                <img src="./images/casa2.jpg" alt="Casa com piscina">
+                <h3>Casa 04</h3>
+                <p>Casa localizada a 15 minutos do centro, com piscina, dois andares, quatro quartos com duas suítes.
+                </p>
+                <span><del>R$ 400.000,00</del></span>
+                <span><strong>R$ 350.000,00</strong></span><br>
+                <button>Tenho Interesse</button>
+            </li>
+            <li>
+                <img src="./images/casa2.jpg" alt="Casa com piscina">
+                <h3>Casa 05</h3>
+                <p>Casa localizada a 15 minutos do centro, com piscina, dois andares, quatro quartos com duas suítes.
+                </p>
+                <span><del>R$ 400.000,00</del></span>
+                <span><strong>R$ 350.000,00</strong></span><br>
+                <button>Tenho Interesse</button>
+            </li>
+            <li>
+                <img src="./images/casa2.jpg" alt="Casa com piscina">
+                <h3>Casa 06</h3>
+                <p>Casa localizada a 15 minutos do centro, com piscina, dois andares, quatro quartos com duas suítes.
+                </p>
+                <span><del>R$ 400.000,00</del></span>
+                <span><strong>R$ 350.000,00</strong></span><br>
+                <button>Tenho Interesse</button>
+            </li>
+        </ul>
+    </section>
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <div class="form">
+            <form id="form">
+                <input type="text" name="imovelDeInteresse" id="imovelDeInteresse">
+                <input type="text" required placeholder="Digite seu nome" name="nome" id="nome">
+                <input type="number" required placeholder="Digite seu telefone" name="telefone" id="telefone">
+                <input type="email" required placeholder="Digite seu email" name="email" id="email">
+                <textarea placeholder="Conte nos mais sobre você" name="mensagem" id="mensagem"></textarea>
+                <button type="submit" id="button-form">Enviar</button>
+            </form>
+        </div>
+
+    </section>
+    <footer>
+        <h2>Casa&Negócio Imobiliária</h2>
+
+        <h2>&copy Todos os direitos reservados</h2>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
