@@ -111,7 +111,7 @@ ul{
 }
 
 ul > li > img{
-    width: 400px;
+    width: 80%;
 }
 
 del {
@@ -248,15 +248,21 @@ footer {
     }
 
     ul {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        flex-wrap: wrap;
+        flex-basis: 50%;
+    }
+
+    ul > li > img {
+        width: 90%;
     }
 
     li > p, button {
-        width: 350px;
-        margin-left: 220px;
+        width: 90%;
     }
 
     #contato {
